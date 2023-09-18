@@ -1,0 +1,44 @@
+/* Write your CSS code here */
+* {
+  font-family: 'roboto';
+}
+.header-main-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  margin: 20px;
+}
+.logo-head-container {
+  display: flex;
+  margin-left: 80px;
+}
+.logo {
+  height: 40px;
+  width: 40px;
+}
+.nav-items-container {
+  display: flex;
+  justify-content: space-around;
+  margin-right: 80px;
+  width: 300px;
+}
+li {
+  list-style-type: none;
+}
+.nav-text {
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+}
+@media screen and(min-width:992px) {
+  nav {
+    justify-content: space-between;
+  }
+  .logo {
+    height: 80px;
+    width: 80px;
+  }
+  .nav-text {
+    font-size: 26px;
+  }
+}
